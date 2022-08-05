@@ -8,13 +8,29 @@ http://meanjeful-codestates-fe-advanced-course.s3-website.ap-northeast-2.amazona
 ```npm run start```
 
 ## Stack
-JavaScript
-React
-React-Router
-React-Router-Dom
-Axios
-Tailwind CSS
-S3
+<p>
+  <img alt="javascript" src ="https://img.shields.io/badge/common-javascript-f39c12?style=for-the-badge&logo=JavaScript"/>
+</p>
+<p>
+  <img alt="git" src ="https://img.shields.io/badge/common-git-f39c12?style=for-the-badge&logo=git"/>
+</p>
+<p>
+  <img alt="axios" src ="https://img.shields.io/badge/common-axios-f39c12?style=for-the-badge&logo=axios"/>
+</p>
+<p>
+  <img alt="react" src ="https://img.shields.io/badge/front-react-C0392B?style=for-the-badge&logo=React"/>
+</p>
+<p>
+  <img alt="react-router-dom" src ="https://img.shields.io/badge/front-react router dom-C0392B?style=for-the-badge&logo=React Router"/>
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/front-tailwind css-C0392B?style=for-the-badge&logo=Tailwind CSS&logoColor=#06B6D4"/>
+</p>
+
+<p>
+  <img alt="s3" src ="https://img.shields.io/badge/deploy-s3-27AE60?style=for-the-badge&logo=Amazon AWS"/>
+</p>
 
 ## Software Requirement Specification
 - 게시물 리스트와 게시물 상세 페이지
