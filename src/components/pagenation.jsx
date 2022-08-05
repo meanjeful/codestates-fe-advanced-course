@@ -19,7 +19,11 @@ const Pagenation = ({ total, limit, page, setPage }) => {
         .fill()
         .map((_, i) => (
           <div
-            className="button-pagenation"
+            className={`${
+              page === i + 1
+                ? "button-pagenation bg-google-1 text-white border-google-1"
+                : "button-pagenation"
+            }`}
             key={i + 1}
             onClick={() => setPage(i + 1)}
             aria-current={page === i + 1 ? "page" : null}
