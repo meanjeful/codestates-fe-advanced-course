@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components {
+  .container-modal {
+    @apply bg-opacity-70 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center;
+  }
+
+  .modal-normal {
+    @apply w-full h-full flex flex-col bg-white;
+  }
+}
