@@ -38,6 +38,11 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      google: {
+        1: "#2882fb",
+        2: "#4ba761",
+        3: "#ffd14f",
+      },
     }),
     columns: {
       auto: "auto",
@@ -351,6 +356,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        "NanumGothic",
         "ui-sans-serif",
         "system-ui",
         "-apple-system",

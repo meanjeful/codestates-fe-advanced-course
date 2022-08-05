@@ -5,10 +5,21 @@
 
 @layer components {
   .container-modal {
-    @apply bg-opacity-70 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center;
+    @apply bg-gray-50 bg-opacity-70 fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center;
   }
 
   .modal-normal {
-    @apply w-full h-full flex flex-col bg-white;
+    @apply w-[800px] h-[647px] bg-white border-2 rounded-xl;
+  }
+
+  .button-pagenation {
+    @apply flex flex-col items-center align-middle w-9 h-9 border-2 border-gray-400 rounded-md bg-white text-gray-500 hover:bg-google-1 hover:text-white hover:border-google-1 cursor-pointer;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "NanumGothic";
+    src: font-rul("NanumGothic") format("truetype");
   }
 }

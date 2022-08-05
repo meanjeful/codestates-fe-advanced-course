@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import PostList from "./components/postList";
+import PostPage from "./pages/post";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PostList />} />
+        <Route path="/" element={<PostPage />} />
       </Routes>
     </BrowserRouter>
   );
