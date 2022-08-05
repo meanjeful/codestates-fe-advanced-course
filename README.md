@@ -8,7 +8,13 @@ http://meanjeful-codestates-fe-advanced-course.s3-website.ap-northeast-2.amazona
 ```npm run start```
 
 ## Stack
-JavaScript, React, React-Router, React-Router-Dom, Axios, Tailwind CSS
+JavaScript
+React
+React-Router
+React-Router-Dom
+Axios
+Tailwind CSS
+S3
 
 ## Software Requirement Specification
 - 게시물 리스트와 게시물 상세 페이지
@@ -17,7 +23,16 @@ JavaScript, React, React-Router, React-Router-Dom, Axios, Tailwind CSS
 
 ## 추가 구현 사항 및 구현 방법
 - 페이지네이션
-  - Api 호출 후 현재 선택한 페이지에 따라 필요한 데이터만 slice 하여 렌더링
+  - Api 호출 후 데이터를 현재 선택한 페이지에 따라 slice 하여 렌더링
 - Modal
   - ReactDOM의 createPortal을 이용하여 root node의 sibling node인 modal node를 생성해 렌더링
-  - State를 사용하여 modal 조건부 렌더링
+  - modal 렌더링 여부를 state로 관리하여 modal 조건부 렌더링
+
+## 느낀점
+```
+일정상 가용 시간이 적어 처음에는 시간안에 완성할 수 있을까 두려움이 생겼다.
+10시간을 한시간 단위로 시간을 쪼개서 태스크 관리를 하며 처음에 계획했던 기능 구현을 포기하기도 하며, 마침내 완성했다.
+진행했던 프로젝트에 비해서 엄청나게 작은 과제이지만, 오랜만에 시간에 쫓겨가며 재미있는 개발을 했다는 느낌이 든다.
+개인적으로 디자이너와 소통하는 느낌이 들어서, 프로토타입을 기반으로 개발을 하는 것을 좋아하는데
+시간상 프로토타입을 제작하지 못한 것과 성능 최적화에 대한 고민을 깊게 하지 못한 것이 아쉽다.
+```
