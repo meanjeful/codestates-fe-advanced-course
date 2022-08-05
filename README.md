@@ -32,7 +32,7 @@ http://meanjeful-codestates-fe-advanced-course.s3-website.ap-northeast-2.amazona
   <img alt="s3" src ="https://img.shields.io/badge/deploy-s3-27AE60?style=for-the-badge&logo=Amazon AWS"/>
 </p>
 
-## Software Requirement Specification
+## 구현 기능 목록
 - 게시물 리스트와 게시물 상세 페이지
 - 게시물 리스트 페이지네이션
 - 게시물 조회시 Modal 표시
