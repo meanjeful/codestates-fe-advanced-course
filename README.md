@@ -43,6 +43,8 @@ http://meanjeful-codestates-fe-advanced-course.s3-website.ap-northeast-2.amazona
 - Modal
   - ReactDOM의 createPortal을 이용하여 root node의 sibling node인 modal node를 생성해 렌더링
   - modal 렌더링 여부를 state로 관리하여 modal 조건부 렌더링
+- Tap
+  - 현재 렌더링되고 있는 페이지를 조건부 CSS 이용 
 
 ## 느낀점
 ```
